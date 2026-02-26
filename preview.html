@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INSD PCMC - Bachelor in Fashion Design | Pune</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background:#f8f8f8;
+    color:#333;
+}
+header{
+    background:linear-gradient(135deg,#000,#6a0dad);
+    color:#fff;
+    padding:60px 20px;
+    text-align:center;
+}
+header h1{
+    font-size:40px;
+    font-weight:700;
+}
+header p{
+    margin-top:15px;
+    font-size:18px;
+}
+.cta-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 30px;
+    background:#ff4081;
+    color:#fff;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+}
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+h2{
+    margin-bottom:20px;
+    font-size:32px;
+}
+.features{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin-top:40px;
+}
+.feature-box{
+    width:300px;
+    background:#fff;
+    padding:25px;
+    margin:15px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+.form-section{
+    background:#fff;
+    padding:40px;
+    max-width:500px;
+    margin:40px auto;
+    border-radius:10px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+input, select{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+button{
+    width:100%;
+    padding:12px;
+    background:#6a0dad;
+    color:#fff;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+}
+footer{
+    background:#000;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>INSD PCMC</h1>
+    <p>Bachelor in Fashion Design in Pune</p>
+    <p>Admissions Open 2026 | Limited Seats</p>
+    <a href="#leadForm" class="cta-btn">Apply Now</a>
+</header>
+
+<section>
+    <div class="container">
+        <h2>Why Choose INSD PCMC?</h2>
+        <div class="features">
+            <div class="feature-box">
+                <h3>Industry Oriented Curriculum</h3>
+                <p>Practical training, fashion shows & live projects.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Placement Assistance</h3>
+                <p>100% Placement Support with top fashion brands.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Expert Faculty</h3>
+                <p>Learn from experienced fashion professionals.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background:#f2e6ff;">
+    <div class="container">
+        <h2>Course Objectives - Fashion Design</h2>
+        <p>
+        Develop creative thinking, fashion illustration skills, garment construction techniques,
+        textile knowledge, styling, fashion marketing, and entrepreneurship skills to build
+        a successful career in the fashion industry.
+        </p>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>6 Months Interior Design Course</h2>
+        <p>✔ Certificate Course<br>
+        ✔ Practical Site Visits<br>
+        ✔ 100% Placement Assistance<br>
+        ✔ Portfolio Development</p>
+    </div>
+</section>
+
+<section id="leadForm">
+    <div class="form-section">
+        <h2>Enquire Now</h2>
+        <form action="submit.php" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="tel" name="phone" placeholder="Mobile Number" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            
+            <select name="course" required>
+                <option value="">Select Course</option>
+                <option>Bachelor in Fashion Design</option>
+                <option>6 Months Interior Design</option>
+            </select>
+
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 INSD PCMC Pune | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
